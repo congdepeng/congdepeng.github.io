@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'C'
-SITENAME = u'C'
+AUTHOR = u'Cong Depeng'
+SITENAME = u'Cong Depeng'
 SITEURL = 'http://congdepeng.github.io'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Singapore'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'cn'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,3 +29,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+THEME = "/Users/depeng/github/congdepeng.github.io/pelipress"
+
+MENUBRAND = [('Cong Depeng', 'http://congdepeng.github.io'),]
