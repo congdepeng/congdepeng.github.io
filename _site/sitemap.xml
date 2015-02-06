@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>//localhost:8000</loc>
+    </url>
+    
+    
+    <url>
+        <loc>//localhost:8000/404.html</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/about/</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/tags/</loc>
+    </url>
+    
+    <url>
+        <loc>//localhost:8000/terms/</loc>
+    </url>
+    
+
+    
+    <url>
+        <loc>//localhost:8000/81fa/install-jekyll-2-ubuntu-14-04</loc>
+    </url>
+    
+</urlset>
