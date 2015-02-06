@@ -1,21 +1,21 @@
-title:            congdepeng
-description:      Cong Depeng
-disqus_shortname: congdepeng
+title:            michaelchelen.net
+description:      Guides and information written by Michael Chelen
+disqus_shortname: michaelchelennet
 reading_time:     false
 words_per_minute: 200
-#url:              //congdepeng.net
-url:              //localhost:8000
+url:              //michaelchelen.net
+#url:              //localhost:4000
 
 # Owner/author information
 owner:
-  name:           Cong Depeng 
+  name:           Michael Chelen
   avatar:         avatar.jpg
   bio:            "A person"
-  email:          congdepeng@gmail.com
+  email:          michael.chelen@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        mikechelen
   facebook:       
-  github:         congdepeng
+  github:         mchelen
   stackexchange:  
   linkedin:       
   instagram:        
@@ -23,7 +23,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +congdepeng
+  google_plus:    +MichaelChelen
 
 # Background image to be tiled on all pages
 background:
@@ -40,11 +40,11 @@ links:
 #  - title: Fork
 #    url: /theme-setup
   - title: Fork
-    url: 
+    url: https://github.com/mchelen/michaelchelen.net
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/SG
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
