@@ -1,18 +1,11 @@
 ---
 layout: page
+title: About
 permalink: /about/
-title: About 
-tags: [Jekyll]
-image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-share: true
 ---
 
-# Built With #
-- [Jekyll](http://jekyllrb.com/)
-- [HPSTR Theme](http://mademistakes.com/hpstr/)
-- [Github Pages](https://github.com/mchelen/michaelchelen.net)
-<!-- <div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div> -->
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
+You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)

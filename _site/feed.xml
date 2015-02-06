@@ -1,148 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">congdepeng</title>
-<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="//localhost:8000/feed.xml" />
-<link rel="alternate" type="text/html" href="//localhost:8000" />
-<updated>2015-02-06T09:08:31+00:00</updated>
-<id>//localhost:8000/</id>
-<author>
-  <name>Cong Depeng</name>
-  <uri>//localhost:8000/</uri>
-  <email>congdepeng@gmail.com</email>
-</author>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Feb 2015 17:37:32 +0800</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2015 17:37:32 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-<entry>
-  <title type="html"><![CDATA[Install Jekyll 2 on Ubuntu 14.04]]></title>
- <link rel="alternate" type="text/html" href="//localhost:8000/81fa/install-jekyll-2-ubuntu-14-04" />
-  <id>//localhost:8000/81fa/install-jekyll-2-ubuntu-14-04</id>
-  <published>2014-05-14T00:00:00+00:00</published>
-  <updated>2014-05-14T00:00:00+00:00</updated>
-  <author>
-    <name>Cong Depeng</name>
-    <uri>//localhost:8000</uri>
-    <email>congdepeng@gmail.com</email>
-  </author>
-  <content type="html">&lt;p&gt;&lt;img src=&quot;http://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;&quot; /&gt;
-Jekyll 2 was &lt;a href=&quot;http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/&quot;&gt;recently released&lt;/a&gt; and can be installed on Ubuntu 14.04 or 14.10 using &lt;code&gt;apt-get&lt;/code&gt; and &lt;code&gt;gem install&lt;/code&gt;. Additional features such as Rdiscount can be added with the same method. Although there are packages for Jekyll in the &lt;a href=&quot;http://packages.ubuntu.com/search?keywords=jekyll&amp;amp;searchon=names&amp;amp;suite=all&amp;amp;section=all&quot;&gt;Ubuntu repository&lt;/a&gt;, the packages are for older versions of Jekyll.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;p&gt;Jekyll is a static site generator with a templating system that can be adapted for many types of websites, including blogs. It can be run on a server, or run locally and the generated files uploaded to a server. It is the default software used by Github Pages.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;Tested with Jekyll 2.5.2 on Ubuntu 14.04 and 14.10&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;install-prerequisites&quot;&gt;Install Prerequisites&lt;/h2&gt;
-
-&lt;p&gt;Install ruby, the ruby development libraries, and the make command.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get install ruby ruby-dev make gcc nodejs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;javascript-workaround&quot;&gt;Javascript Workaround&lt;/h3&gt;
-&lt;p&gt;Installation of &lt;code&gt;nodejs&lt;/code&gt; is required because of an &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/2327&quot;&gt;issue&lt;/a&gt; where Jekyll requires a JavaScript runtime even if it will not be used.&lt;/p&gt;
-
-&lt;h2 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h2&gt;
-&lt;p&gt;Install the Jekyll gem system wide. For speed, we are excluding the extended documentation. To include all documentation, omit the &lt;code&gt;--no-rdoc --no-ri&lt;/code&gt; switches.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo gem install jekyll --no-rdoc --no-ri
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;start-jekyll&quot;&gt;Start Jekyll&lt;/h2&gt;
-
-&lt;p&gt;Check that Jekyll has been successfully installed.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll -v
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The current version is &lt;code&gt;jekyll 2.5.2&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;recommended&quot;&gt;Recommended&lt;/h2&gt;
-&lt;p&gt;Additional gems can add features to Jekyll, such the &lt;a href=&quot;https://github.com/github/pages-gem&quot;&gt;&lt;code&gt;github-pages&lt;/code&gt;&lt;/a&gt; gem which bundles together several gems supported by Github Pages.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo gem install github-pages --no-rdoc --no-ri
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Although not required, &lt;code&gt;git&lt;/code&gt; is often used to manage the files of a Jekyll website.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get install git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;get-website-content&quot;&gt;Get Website Content&lt;/h3&gt;
-&lt;p&gt;Now that Jekyll is installed, we need content for it to serve. We can either use a current website, or set up a new site from scratch.&lt;/p&gt;
-
-&lt;h4 id=&quot;use-existing-site&quot;&gt;Use Existing Site&lt;/h4&gt;
-&lt;p&gt;Use &lt;code&gt;git&lt;/code&gt; to clone an existing Jekyll website, such as this one!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/mchelen/michaelchelen.net.git
-cd michaelchelen.net
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Please note: the &lt;code&gt;--config&lt;/code&gt; option must be specified to run &lt;code&gt;michaelchelen.net&lt;/code&gt; locally. See &lt;em&gt;Extra Options&lt;/em&gt; section below.&lt;/p&gt;
-
-&lt;h4 id=&quot;create-new-site&quot;&gt;Create New Site&lt;/h4&gt;
-&lt;p&gt;For a new Jekyll site, use the &lt;code&gt;new&lt;/code&gt; command to create a directory structure and config files.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll new my-awesome-site
-cd my-awesome-site 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;start-jekyll-1&quot;&gt;Start Jekyll&lt;/h3&gt;
-&lt;p&gt;Now that the basic config and layout are available, start Jekyll to generate the website HTML and start a local server.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then visit &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; in a web browser.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is now successfully runnning!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;extra-options&quot;&gt;Extra Options&lt;/h3&gt;
-&lt;p&gt;Jekyll can watch the directory for changes and regenerate the website when files are modified.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll serve -w
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The default port &lt;code&gt;4000&lt;/code&gt; can be changed, for example when running multiple Jekyll instances.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll serve --port 4001
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then visit &lt;a href=&quot;http://localhost:4001&quot;&gt;http://localhost:4001&lt;/a&gt; in a web browser.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;_config.yml&lt;/code&gt; can also be specified. This is useful if you need different configs for a public site or when running locally. For example, when running &lt;code&gt;michaelchelen.net&lt;/code&gt; locally use:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll serve --config _config-local.yml
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The website can also be generated without starting a local server. The files are placed into the &lt;code&gt;_site&lt;/code&gt; directory and can be uploaded to a web server.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;updating-jekyll&quot;&gt;Updating Jekyll&lt;/h3&gt;
-&lt;p&gt;Jekyll can be updated similar to installation, by using the &lt;code&gt;gem update&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo gem update jekyll --no-rdoc --no-ri
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The same command can be used to update additional gems.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo gem update github-pages --no-rdoc --no-ri
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/8113213/2043808&quot;&gt;http://stackoverflow.com/a/8113213/2043808&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/pull/2362&quot;&gt;https://github.com/jekyll/jekyll/pull/2362&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ubuntuforums.org/showthread.php?t=1464768&amp;amp;p=9188769#post9188769&quot;&gt;http://ubuntuforums.org/showthread.php?t=1464768&amp;amp;p=9188769#post9188769&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;http://jekyllrb.com/docs/home/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;p&gt;&lt;a href=&quot;//localhost:8000/81fa/install-jekyll-2-ubuntu-14-04&quot;&gt;Install Jekyll 2 on Ubuntu 14.04&lt;/a&gt; was originally published by Cong Depeng at &lt;a href=&quot;//localhost:8000&quot;&gt;congdepeng&lt;/a&gt; on May 14, 2014.&lt;/p&gt;</content>
-</entry>
-
-</feed>
+</description>
+        <pubDate>Sat, 07 Feb 2015 00:40:44 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/02/07/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/02/07/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
